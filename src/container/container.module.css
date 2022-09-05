@@ -1,0 +1,9 @@
+.container {
+	width: 500px;
+	margin: 50px auto;
+
+	background-color: rgb(247, 247, 216);
+	border: var(--main-border);
+	border-radius: 10px;
+	box-shadow: var(--main-shadow);
+}

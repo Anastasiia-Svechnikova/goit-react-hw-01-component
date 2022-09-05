@@ -1,0 +1,14 @@
+.box {
+	width: 70px;
+	height: 70px;
+
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px rgba(154, 147, 140, 0.5), inset 1px 1px 3px rgba(255, 255, 255, 1);
+}
+
+.label {
+	display: block;
+	margin: 10px auto;
+
+	font-weight: 700;
+}

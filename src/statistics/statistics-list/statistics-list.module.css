@@ -1,0 +1,13 @@
+.box {
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+	margin: 0;
+
+	text-align: center;
+	border: var(--main-border);
+	border-radius: 10px;
+	box-shadow: var(--main-shadow);
+
+	list-style: none;
+}

@@ -1,0 +1,36 @@
+.box {
+	width: 80px;
+	height: 80px;
+
+	border: var(--main-border);
+	border-radius: 50%;
+	text-align: center;
+	box-shadow: var(--main-shadow);
+}
+.avatar {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin-top: 10px;
+}
+.name {
+	margin: 3px auto;
+}
+
+.status {
+	display: block;
+	width: 7px;
+	height: 7px;
+	margin-left: auto;
+	margin-right: auto;
+
+	border-radius: 50%;
+}
+.online {
+	composes: status;
+	background-color: greenyellow;
+}
+.offline {
+	composes: status;
+	background-color: crimson;
+}
