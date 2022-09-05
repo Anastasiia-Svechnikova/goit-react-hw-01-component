@@ -11,4 +11,5 @@ export default function Statistics({ title, children }) {
 }
 Statistics.propTypes = {
 	title: PropTypes.string,
+	children: PropTypes.node,
 };
